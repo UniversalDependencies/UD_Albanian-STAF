@@ -10,7 +10,7 @@
 
 # Acknowledgments
 
-...
+Many thanks to Nelda Kote and her group for providing me with their unpublished Albanian treebank, which served as the seedbank treebank to boostrap STAF. Anila Cepani and Rozana Rushiti provided invaluable information on the Albanian language and trained our student assistant, Edita Luftiu, who served as the main annotator.
 
 ## References
 
