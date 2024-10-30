@@ -79,7 +79,7 @@
 4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:adj	_	end_char=2050|start_char=2049
 5	qetë	qetë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	end_char=2056|start_char=2055
-7	duke	duke	AUX	_	_	9	aux	_	end_char=2061|start_char=2057
+7	duke	duke	PART	_	_	9	mark	_	end_char=2061|start_char=2057
 8	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	end_char=2063|start_char=2062
 9	mbajtur	mbaj	VERB	_	VerbForm=Part	2	advcl	_	end_char=2071|start_char=2064
 10	kupën	kupë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	end_char=2077|start_char=2072
