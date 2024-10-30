@@ -71,7 +71,7 @@
 14	diçka	diçka	PRON	_	PronType=Ind	7	obj	_	end_char=863|start_char=858
 15	për	për	ADP	_	_	16	case	_	end_char=867|start_char=864
 16	klimën	klimë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	end_char=874|start_char=868
-17	e	e	PART	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	case	_	end_char=876|start_char=875
+17	e	e	DET	_	Gender=Fem|Number=Sing	18	det	_	end_char=876|start_char=875
 18	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod:poss	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	end_char=888|start_char=887
 
@@ -91,7 +91,7 @@
 11	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 12	dhe	dhe	CCONJ	_	_	16	cc	_	_
 13	Ernesti	Ernest	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	_
-14	po	po	AUX	_	_	16	aux	_	_
+14	po	po	PART	_	_	16	mark	_	_
 15	i	i	PRON	_	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs	16	iobj	_	_
 16	mbërthente	mbërthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	_
 17	zinxhirin	zinxhir	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	_
@@ -165,8 +165,8 @@
 # sent_id = STAF__25
 # source = Fatos Kongoli - Lëkura e qenit
 1	Ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
-2	fillimi	fillimi	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
-3	i	i	PART	_	Number=Sing|PronType=Art	4	case	_	_
+2	fillimi	fillimi	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	i	i	DET	_	Gender=Masc|Number=Sing	4	det	_	_
 4	shtatorit	shtator	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 5	'99	'99	NUM	_	_	4	nummod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -207,12 +207,12 @@
 # source = Enkelejd Lamaj - Libër i bardhë
 1	Ish	ish	PART	_	_	2	compound	_	_
 2	gruaja	grua	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
-3	e	e	PART	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	case	_	_
+3	e	e	PART	_	Gender=Fem|Number=Sing	4	case	_	_
 4	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
 5	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	_
 6	pak	pak	PRON	_	PronType=Ind	7	det	_	_
 7	skiç	skiç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-8	në	në	ADP	_	Case=Acc	9	case	_	_
+8	në	në	ADP	_	_	9	case	_	_
 9	krahasim	krahasim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	_
 10	me	me	ADP	_	_	11	case	_	_
 11	pasqyrën	pasqyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -283,9 +283,9 @@
 19	,	,	PUNCT	_	_	18	punct	_	end_char=1050|start_char=1049
 20	atij	ai	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	_	end_char=1055|start_char=1051
 21	nuk	nuk	PART	_	Polarity=Neg	25	advmod	_	end_char=1059|start_char=1056
-22	do	do	AUX	_	_	25	aux	_	end_char=1062|start_char=1060
+22	do	do	PART	_	_	25	mark	_	end_char=1062|start_char=1060
 23-24	t'i	_	_	_	_	_	_	_	_
-23	të	të	PART	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	25	mark	_	end_char=1066|start_char=1063
+23	të	të	PART	_	_	25	mark	_	end_char=1066|start_char=1063
 24	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	25	obj	_	end_char=1066|start_char=1063
 25	dukej	dukej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	end_char=1072|start_char=1067
 26	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	end_char=1075|start_char=1073
@@ -372,11 +372,11 @@
 16	e	e	PRON	_	_	17	obj	_	_
 17	pyesja	pyes	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	14	ccomp	_	end_char=4331|start_char=4325
 18-19	ç'i	_	_	_	_	_	_	_	end_char=4324|start_char=4322
-18	ç'	ç'	PRON	_	PronType=Rel	17	ccomp	_	end_char=4335|start_char=4332
-19	i	i	PART	_	PronType=Rel	17	mark	_	end_char=4335|start_char=4332
-20	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	end_char=4342|start_char=4336
+18	ç'	ç'	PRON	_	PronType=Rel	20	obj	_	end_char=4335|start_char=4332
+19	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	end_char=4335|start_char=4332
+20	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	ccomp	_	end_char=4342|start_char=4336
 21	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Dem	22	det	_	end_char=4346|start_char=4343
-22	lot	lot	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	18	nsubj	_	SpaceAfter=No
+22	lot	lot	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	20	nsubj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	14	punct	_	end_char=4351|start_char=4350
 
 # text = Atë ditë e mora vesh që meritën na e paskëshin pas ato fletët e bardha të lidhura në mënyrë profesionale.
@@ -387,7 +387,7 @@
 3	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	end_char=1210|start_char=1209
 4	mora	marr	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	end_char=1215|start_char=1211
 5	vesh	vesh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	compound	_	end_char=1220|start_char=1216
-6	që	që	SCONJ	_	PronType=Rel	11	mark	_	end_char=1223|start_char=1221
+6	që	që	SCONJ	_	_	11	mark	_	end_char=1223|start_char=1221
 7	meritën	meritë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	end_char=1231|start_char=1224
 8	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	iobj	_	end_char=1234|start_char=1232
 9	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	end_char=1236|start_char=1235
@@ -452,7 +452,7 @@
 7	–	–	PUNCT	_	_	8	punct	_	end_char=412|start_char=411
 8	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	end_char=417|start_char=416
-10	duke	duke	AUX	_	_	13	aux	_	end_char=422|start_char=418
+10	duke	duke	PART	_	_	13	mark	_	end_char=422|start_char=418
 11-12	ia	_	_	_	_	_	_	_	end_char=425|start_char=423
 11	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
 12	i	i	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
