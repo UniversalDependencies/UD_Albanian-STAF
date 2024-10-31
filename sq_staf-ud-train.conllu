@@ -3011,7 +3011,7 @@
 21	dukej	dukej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	end_char=308|start_char=303
 22	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	end_char=311|start_char=309
 23	shi	shi	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	nsubj	_	end_char=315|start_char=312
-24	monoton	monotoj	ADJ	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	amod	_	end_char=323|start_char=316
+24	monoton	monotoj	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	23	amod	_	end_char=323|start_char=316
 25	një	një	DET	_	Definite=Ind	26	det	_	end_char=327|start_char=324
 26	përkim	përkim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	xcomp	_	end_char=334|start_char=328
 27	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	28	det:adj	_	end_char=336|start_char=335
@@ -3239,7 +3239,7 @@
 11	misioni	mision	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	end_char=1164|start_char=1157
 12	i	i	DET	_	Gender=Masc|Number=Sing	13	det	_	end_char=1166|start_char=1165
 13	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	end_char=1170|start_char=1167
-14	mund	mund	AUX	_	_	16	aux	_	end_char=1175|start_char=1171
+14	mund	mund	PART	_	_	16	mark	_	end_char=1175|start_char=1171
 15	të	të	PART	_	_	16	mark	_	end_char=1178|start_char=1176
 16	kryhej	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	8	ccomp	_	end_char=1185|start_char=1179
 17	vetëm	vetëm	PART	_	_	16	advmod	_	end_char=1191|start_char=1186
