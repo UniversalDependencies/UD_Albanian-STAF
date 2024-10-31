@@ -80,7 +80,7 @@
 # source = Ismali Kadare - Gjenerali ï Ushtrisë së Vdekur.
 1	Herë	Herë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	end_char=1350|start_char=1346
 2	pas	pas	ADP	_	_	3	case	_	end_char=1354|start_char=1351
-3	here	here	NOUN	_	AdvType=Tim	1	nmod	_	end_char=1359|start_char=1355
+3	here	here	NOUN	_	_	1	nmod	_	end_char=1359|start_char=1355
 4	dukeshin	dukesh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	end_char=1368|start_char=1360
 5	djem	djalë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	end_char=1373|start_char=1369
 6	e	e	CCONJ	_	_	7	cc	_	end_char=1375|start_char=1374
