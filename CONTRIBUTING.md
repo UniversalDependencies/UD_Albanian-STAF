@@ -1,3 +1,3 @@
 # Contributing
 
-Luigi Talamo, Edita Luftiu, Anila Çepani, Rozana Rushitu, Nelda Kote.
+Luigi Talamo, Edita Luftiu, Nelda Kote, Rozana Rushitu, Anila Çepani.  
