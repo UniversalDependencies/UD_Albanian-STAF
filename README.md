@@ -1,6 +1,6 @@
 # Summary
 
-The UD-Albanian-STAF (Saarbruecken Treebank of Albanian Fiction) is a treebank of the Albanian language, comprising 220 randomly selected sentences from six fictional books published between 1963 and 2004.
+The UD-Albanian-STAF (Saarbruecken Treebank of Albanian Fiction) is a treebank of the Albanian language, comprising 202 randomly selected sentences from six fictional books published between 1963 and 2004.
 
 # Introduction
 
@@ -8,11 +8,12 @@ The UD-Albanian-STAF treebank was initially automatically annotated using a Stan
 
 # Acknowledgments
 
-Many thanks to Nelda Kote and her group for providing me with their unpublished Albanian treebank, which served as the seedbank treebank to boostrap STAF. Anila Cepani and Rozana Rushiti provided invaluable information on the Albanian language and helped training our student assistant, Edita Luftiu, who served as the main annotator.
+Many thanks to Nelda Kote and her group for providing me with their unpublished Albanian treebank (Kote et al. 2024), which served as the seedbank treebank to boostrap STAF. Anila Cepani and Rozana Rushiti provided invaluable information on the Albanian language and helped training our student assistant, Edita Luftiu, who served as the main annotator.
 
 ## References
 
 * Luigi Talamo. Introducing STAF: the Saarbruecken Treebank of Albanian Fiction. Submitted.
+* Nelda Kote, Rozana Rushiti, Anila Cepani, Alba Haveriku, Evis Trandafili, Elinda Kajo Mece, Elsa Skenderi Rakipllari, Lindita Xhanari, Albana Deda: Universal Dependencies Treebank for Standard Albanian: A new approach, Proceedings of the Sixth International Conference Computational Linguistics in Bulgaria, 9 – 10 September 2024, Sofia, Bulgaria, ISSN: 2367 5675.
 
 
 # Changelog
@@ -32,7 +33,7 @@ UPOS: manual native
 XPOS: not available
 Features: automatic with corrections
 Relations: manual native
-Contributors: Talamo, Luigi; Luftiu, Edita
+Contributors: Talamo, Luigi; Luftiu, Edita; Kote, Nelda; Rushiti, Rozana; Cepani, Anila
 Contributing: here
 Contact: luigi.talamo@uni-saarland.de
 ===============================================================================
