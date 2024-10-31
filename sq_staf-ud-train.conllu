@@ -1832,7 +1832,7 @@
 19	e	e	CCONJ	_	_	25	cc	_	end_char=516|start_char=515
 20	deri	deri	ADP	_	_	21	case	_	end_char=521|start_char=517
 21	këtu	këtu	ADV	_	AdvType=Loc	25	advmod	_	end_char=526|start_char=522
-22	do	do	AUX	_	_	25	aux	_	end_char=529|start_char=527
+22	do	do	PART	_	_	25	mark	_	end_char=529|start_char=527
 23	të	të	PART	_	_	25	mark	_	end_char=532|start_char=530
 24	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	cop	_	end_char=538|start_char=533
 25	gjysma	gjysmë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	end_char=545|start_char=539
@@ -2145,7 +2145,7 @@
 9-10	ia	_	_	_	_	_	_	_	end_char=1038|start_char=1036
 9	i	ai	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
 10	e	ai	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
-11	paskej	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	aux	_	end_char=1045|start_char=1039
+11	paskej	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux	_	end_char=1045|start_char=1039
 12	shitur	shes	VERB	_	VerbForm=Part	0	root	_	end_char=1052|start_char=1046
 13	dikujt	dikull	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	iobj	_	end_char=1059|start_char=1053
 14	tjetër	tjetër	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	13	det	_	end_char=1066|start_char=1060
@@ -2185,7 +2185,7 @@
 # sent_id = STAF__127
 # source = Ridvan Dibra - Gjumi mbi borë
 1	Zana	Zana	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-2	e	e	PART	_	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
+2	e	e	DET	_	Gender=Fem|Number=Sing	3	det	_	_
 3	Malit	Mal	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod:poss	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -2193,9 +2193,9 @@
 # sent_id = STAF__89
 # source = Ismali Kadare - Gjenerali ï Ushtrisë së Vdekur.
 1	-	-	PUNCT	_	_	7	punct	_	end_char=2612|start_char=2611
-2	Ndoshta	ndoshtë	ADV	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	SpaceAfter=No
+2	Ndoshta	ndoshtë	ADV	_	_	7	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	end_char=2621|start_char=2620
-4	do	do	AUX	_	_	7	aux	_	end_char=2624|start_char=2622
+4	do	do	PART	_	_	7	mark	_	end_char=2624|start_char=2622
 5-6	ta	_	_	_	_	_	_	_	end_char=2627|start_char=2625
 5	të	të	PART	_	_	7	mark	_	_
 6	e	aj	PRON	_	_	7	obj	_	_
@@ -2240,7 +2240,7 @@
 25	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	end_char=661|start_char=658
 26	që	që	PRON	_	PronType=Rel	27	obj	_	end_char=664|start_char=662
 27	nxori	nxorr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	acl:relcl	_	end_char=670|start_char=665
-28	prej	prej	ADP	_	Case=Abl	29	case	_	end_char=675|start_char=671
+28	prej	prej	ADP	_	_	29	case	_	end_char=675|start_char=671
 29	mbështjellëses	mbështjellëse	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	27	punct	_	end_char=691|start_char=690
 31	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	35	cop	_	end_char=697|start_char=692
@@ -2255,14 +2255,14 @@
 # text = Do të vënë buzën në gaz, do t'u shkojë mendja te nofka ime.
 # sent_id = STAF__12
 # source = Fatos Kongoli - Lëkura e qenit
-1	Do	do	AUX	_	_	3	aux	_	end_char=816|start_char=814
+1	Do	do	PART	_	_	3	mark	_	end_char=816|start_char=814
 2	të	të	PART	_	_	3	mark	_	end_char=819|start_char=817
 3	vënë	vë	VERB	_	Mood=Sub|Tense=Pres	11	xcomp	_	end_char=824|start_char=820
 4	buzën	buzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	end_char=830|start_char=825
 5	në	në	ADP	_	_	6	case	_	end_char=833|start_char=831
 6	gaz	gaz	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	end_char=837|SpaceAfter=No|start_char=834
 7	,	,	PUNCT	_	_	3	punct	_	end_char=838|start_char=837
-8	do	do	AUX	_	_	11	aux	_	end_char=841|start_char=839
+8	do	do	PART	_	_	11	mark	_	end_char=841|start_char=839
 9-10	t'u	_	_	_	_	_	_	_	end_char=845|start_char=842
 9	të	të	PART	_	_	11	mark	_	_
 10	u	u	AUX	_	_	11	aux	_	_
@@ -2295,12 +2295,12 @@
 # sent_id = STAF__96
 # source = Ismali Kadare - Gjenerali ï Ushtrisë së Vdekur.
 1	-	-	PUNCT	_	_	2	punct	_	end_char=2996|start_char=2995
-2	Duhet	duhet	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	5	aux	_	end_char=3002|start_char=2997
-3	të	të	PART	_	Case=Nom|Number=Sing|PronType=Prs	5	mark	_	end_char=3006|start_char=3003
+2	Duhet	duhet	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	end_char=3002|start_char=2997
+3	të	të	DET	_	Number=Sing|PronType=Prs	5	det	_	end_char=3006|start_char=3003
 4	i	i	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Prs	5	obj	_	end_char=3006|start_char=3003
 5	gjejmë	gjej	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	end_char=3013|start_char=3007
 6	eshtrat	eshtrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	end_char=3021|start_char=3014
-7	e	e	PART	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	case	_	end_char=3023|start_char=3022
+7	e	e	DET	_	Gender=Fem|Number=Plur	8	det	_	end_char=3023|start_char=3022
 8	kolonelit	kolonel	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod:poss	_	end_char=3033|start_char=3024
 9	patjetër	patjetër	ADV	_	AdvType=Tim	5	advmod	_	end_char=3042|start_char=3034
 10	,	,	PUNCT	_	_	12	punct	_	end_char=3043|start_char=3042
@@ -2314,12 +2314,12 @@
 # source = Enkelejd Lamaj - Libër i bardhë
 1	Në	në	ADP	_	_	2	case	_	end_char=265|start_char=263
 2	takimin	takim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	end_char=273|start_char=266
-3	e	e	PART	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	case	_	end_char=275|start_char=274
+3	e	e	DET	_	Gender=Masc|Number=Sing	5	det	_	end_char=275|start_char=274
 4	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	end_char=278|start_char=276
 5	nesërmes	nesërme	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	end_char=287|start_char=279
-6	së	së	PART	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	7	case	_	end_char=290|start_char=288
+6	së	së	DET	_	Gender=Fem|Number=Sing	7	det	_	end_char=290|start_char=288
 7	rrëfimit	rrëfim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	end_char=299|start_char=291
-8	të	të	PART	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	9	case	_	end_char=302|start_char=300
+8	të	të	DET	_	Gender=Masc|Number=Sing	9	det	_	end_char=302|start_char=300
 9	Ernestit	Ernest	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	end_char=312|start_char=311
 11	Vedati	Vedat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	end_char=319|start_char=313
@@ -2366,21 +2366,21 @@
 14	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	end_char=1009|start_char=1003
 15	alternative	alternat	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	end_char=1021|start_char=1010
 16	kambanat	kambanë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	obl:agent	_	end_char=1030|start_char=1022
-17	e	e	PART	_	_	19	case	_	end_char=1032|start_char=1031
+17	e	e	DET	_	Gender=Fem|Number=Sing	19	det	_	end_char=1032|start_char=1031
 18	një	një	DET	_	Definite=Ind	19	det	_	end_char=1036|start_char=1033
 19	kishe	kish	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	end_char=1042|SpaceAfter=No|start_char=1037
 20	,	,	PUNCT	_	_	19	punct	_	end_char=1043|start_char=1042
 21	kënga	këngë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	conj	_	end_char=1049|start_char=1044
-22	e	e	PART	_	_	24	case	_	end_char=1051|start_char=1050
+22	e	e	PART	_	Gender=Fem|Number=Sing	24	det	_	end_char=1051|start_char=1050
 23	një	një	DET	_	Definite=Ind	24	det	_	end_char=1055|start_char=1052
 24	hoxhe	hoxh	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	end_char=1061|start_char=1056
-25	e	e	DET	_	_	26	det	_	end_char=1063|start_char=1062
-26	transmetuar	transmetuar	VERB	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	acl	_	end_char=1075|start_char=1064
+25	e	e	DET	_	Gender=Fem|Number=Sing	26	det:adj	_	end_char=1063|start_char=1062
+26	transmetuar	transmetuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	acl	_	end_char=1075|start_char=1064
 27	me	me	ADP	_	_	28	case	_	end_char=1078|start_char=1076
 28	altoparlant	altoparlan	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	end_char=1090|start_char=1079
 29	nga	nga	ADP	_	_	30	case	_	end_char=1094|start_char=1091
 30	minarja	minarjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	obl	_	end_char=1102|start_char=1095
-31	e	e	PART	_	_	33	case	_	end_char=1104|start_char=1103
+31	e	e	DET	_	Gender=Fem|Number=Sing	33	det	_	end_char=1104|start_char=1103
 32	një	një	DET	_	Definite=Ind	33	det	_	end_char=1108|start_char=1105
 33	xhamie	xhami	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	30	nmod	_	end_char=1115|start_char=1109
 34	dhe	dhe	CCONJ	_	_	35	cc	_	end_char=1119|start_char=1116
@@ -2391,13 +2391,13 @@
 39	vendosjes	vendosje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	47	nmod	_	end_char=1145|start_char=1136
 40	së	së	PART	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	41	case	_	end_char=1148|start_char=1146
 41	ndalim-qarkullimit	ndalim-qarkimim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	39	nmod:poss	_	end_char=1167|start_char=1149
-42	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	43	det	_	end_char=1170|start_char=1168
+42	të	të	DET	_	Gender=Masc|Number=Sing	43	det	_	end_char=1170|start_char=1168
 43	gjendjes	gjendje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	41	nmod	_	end_char=1179|start_char=1171
-44	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	45	det	_	end_char=1182|start_char=1180
+44	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	45	det:adj	_	end_char=1182|start_char=1180
 45	jashtëzakonshme	jashtëzakonshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	end_char=1198|SpaceAfter=No|start_char=1183
 46	,	,	PUNCT	_	_	39	punct	_	end_char=1199|start_char=1198
 47	krismat	krismë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	16	conj	_	end_char=1207|start_char=1200
-48	e	e	PART	_	_	49	case	_	end_char=1209|start_char=1208
+48	e	e	DET	_	Gender=Fem|Number=Plur	49	det	_	end_char=1209|start_char=120
 49	kallashnikovëve	kallashnikovov	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	47	nmod:poss	_	end_char=1225|SpaceAfter=No|start_char=1210
 50	.	.	PUNCT	_	_	12	punct	_	end_char=1226|start_char=1225
 
