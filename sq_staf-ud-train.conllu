@@ -2992,7 +2992,7 @@
 3	mos	mos	PART	_	_	5	advmod	_	end_char=216|start_char=213
 4	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	end_char=222|start_char=217
 5	fillimi	fillim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	advcl	_	end_char=230|start_char=223
-6	i	i	DET	_	Gender=Masc|Number=Sing	7	case	_	end_char=232|start_char=231
+6	i	i	DET	_	Gender=Masc|Number=Sing	7	det	_	end_char=232|start_char=231
 7	vjeshtës	vjeshtë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	end_char=242|start_char=241
 9	çdo	çdo	PRON	_	PronType=Ind	10	det	_	end_char=246|start_char=243
