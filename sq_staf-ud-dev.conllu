@@ -277,7 +277,7 @@
 13	aktualisht	aktualisht	ADV	_	AdvType=Man	15	advmod	_	end_char=2421|start_char=2411
 14	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	end_char=2427|start_char=2422
 15	shtëpia	shtëpi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	ccomp	_	end_char=2435|start_char=2428
-16	e	e	DET	_	Gender=Fem|Number=Sing|PronType=Prs	17	det	_	end_char=2437|start_char=2436
+16	e	e	DET	_	Gender=Fem|Number=Sing	17	det	_	end_char=2437|start_char=2436
 17	timeti	timeti	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	end_char=2441|SpaceAfter=No|start_char=2438
 18	.	.	PUNCT	_	_	4	punct	_	end_char=2446|SpaceAfter=No|start_char=2445
 
