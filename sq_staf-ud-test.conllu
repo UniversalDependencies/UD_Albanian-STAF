@@ -55,7 +55,7 @@
 # text = Para se të nisej, kishte mësuar, midis të tjerash, edhe diçka për klimën e Shqipërisë.
 # sent_id = STAF__99
 # source = Ismali Kadare - Gjenerali ï Ushtrisë së Vdekur.
-1	Para	para	SCONJ	_	AdvType=Tim	4	mark	_	end_char=806|start_char=802
+1	Para	para	SCONJ	_	_	4	mark	_	end_char=806|start_char=802
 2	se	se	SCONJ	_	_	4	mark	_	end_char=809|start_char=807
 3	të	të	PART	_	_	4	mark	_	end_char=812|start_char=810
 4	nisej	nisej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	7	advcl	_	SpaceAfter=No
@@ -78,7 +78,7 @@
 # text = E kuptova sakaq: ajo kishte veshur një fustan të ri dhe Ernesti po i mbërthente zinxhirin nga pas.
 # sent_id = STAF__154
 # source = Enkelejd Lamaj - Libër i bardhë
-1	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	obj	_	_
+1	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	kuptova	kuptoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
 3	sakaq	sakaq	ADV	_	AdvType=Tim	2	advmod	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	2	punct	_	_
@@ -139,7 +139,7 @@
 13	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	end_char=362|start_char=361
 14	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	end_char=366|start_char=363
 15	pyetjen	pyetje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	end_char=374|start_char=367
-16	tjetër	tjetër	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	amod	_	end_char=381|SpaceAfter=No|start_char=375
+16	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	det	_	end_char=381|SpaceAfter=No|start_char=375
 17	:	:	PUNCT	_	_	11	punct	_	end_char=382|start_char=381
 
 # text = Gjumit mbi të.
@@ -173,7 +173,7 @@
 7	vjeshta	vjeshtë	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
 8	e	e	DET	_	_	9	det	_	_
 9	fundit	fund	ADJ	_	_	7	amod	_	_
-10	e	e	PART	_	Gender=Masc|Number=Sing	11	case	_	_
+10	e	e	DET	_	Gender=Masc|Number=Sing	11	det	_	_
 11	mijëvjeçarit	mijëvjeçar	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 12	të	të	DET	_	_	13	det:adj	_	_
 13	dytë	dytë	ADJ	_	_	11	amod	_	SpaceAfter=No
@@ -192,9 +192,9 @@
 7	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 8	keni	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	9	aux	_	end_char=732|start_char=728
 9	vënë	vëj	VERB	_	VerbForm=Part	4	acl:relcl	_	end_char=737|start_char=733
-10	bonum	bonum	ADJ	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	end_char=743|start_char=738
+10	bonum	bonum	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	end_char=743|start_char=738
 11	omen	omen	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	fixed	_	end_char=748|start_char=744
-12	i	i	PART	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	case	_	end_char=750|start_char=749
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det	_	end_char=750|start_char=749
 13	fatit	fat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	end_char=756|start_char=751
 14	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	end_char=759|start_char=757
 15	tij	tij	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	end_char=763|start_char=760
@@ -207,7 +207,7 @@
 # source = Enkelejd Lamaj - Libër i bardhë
 1	Ish	ish	PART	_	_	2	compound	_	_
 2	gruaja	grua	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
-3	e	e	PART	_	Gender=Fem|Number=Sing	4	case	_	_
+3	e	e	DET	_	Gender=Fem|Number=Sing	4	det	_	_
 4	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
 5	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	_
 6	pak	pak	PRON	_	PronType=Ind	7	det	_	_
@@ -221,13 +221,13 @@
 14	pasqyrimin	pasqyrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obj	_	_
 15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	vet	vet	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
-17	në	në	ADP	_	Case=Acc	18	case	_	_
+17	në	në	ADP	_	_	18	case	_	_
 18	pasqyrë	pasqyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	13	punct	_	_
 20	ndërsa	ndërsa	CCONJ	_	_	24	mark	_	_
 21	Ernesti	Ernest	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	_
 22	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	cop	_	_
-23	pas	pas	ADP	_	Case=Abl	24	case	_	_
+23	pas	pas	ADP	_	_	24	case	_	_
 24	saj	saj	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	advcl	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	buzëqeshte	buzëqesh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	advcl	_	_
@@ -319,7 +319,7 @@
 20	,	,	PUNCT	_	_	18	punct	_	end_char=5670|start_char=5669
 21	një	një	DET	_	Definite=Ind	22	det	_	end_char=5674|start_char=5671
 22	rënie	rënie	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	conj	_	end_char=5680|start_char=5675
-23	në	në	ADP	_	Case=Acc	24	case	_	end_char=5683|start_char=5681
+23	në	në	ADP	_	_	24	case	_	end_char=5683|start_char=5681
 24	boshllëk	boshllëk	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	end_char=5692|start_char=5684
 25	dhe	dhe	CCONJ	_	_	27	cc	_	end_char=5696|start_char=5693
 26	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	iobj	_	end_char=5699|start_char=5697
@@ -339,7 +339,7 @@
 1	–	–	PUNCT	_	_	2	punct	_	_
 2	Çfarë	çfarë	PRON	_	PronType=Int	7	parataxis	_	_
 3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	_
-4	kjo	kjo	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	SpaceAfter=No
+4	kjo	kjo	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	2	punct	_	_
 6	–	–	PUNCT	_	_	2	punct	_	_
 7	pyeti	pyes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -429,14 +429,14 @@
 2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	end_char=900|start_char=899
 3	dinte	di	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	end_char=906|start_char=901
 4	që	që	SCONJ	_	_	10	mark	_	end_char=909|start_char=907
-5	në	në	ADP	_	Case=Acc	6	case	_	end_char=912|start_char=910
+5	në	në	ADP	_	_	6	case	_	end_char=912|start_char=910
 6	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	end_char=921|start_char=913
 7	vjeshta	vjeshtë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	end_char=929|start_char=922
 8	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	end_char=935|start_char=930
 9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det:adj	_	end_char=937|start_char=936
 10	lagësht	lagësht	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	ccomp	_	end_char=945|start_char=938
 11	dhe	dhe	CCONJ	_	_	13	cc	_	end_char=949|start_char=946
-12	me	me	ADP	_	Case=Acc	13	case	_	end_char=952|start_char=950
+12	me	me	ADP	_	_	13	case	_	end_char=952|start_char=950
 13	shi	shi	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	end_char=957|start_char=956
 
