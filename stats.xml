@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>200</sentences><tokens>3499</tokens><words>3563</words><fused>62</fused></total>
+    <train><sentences>160</sentences><tokens>2828</tokens><words>2879</words><fused>49</fused></train>
+    <dev><sentences>20</sentences><tokens>309</tokens><words>312</words><fused>3</fused></dev>
+    <test><sentences>20</sentences><tokens>362</tokens><words>372</words><fused>10</fused></test>
+  </size>
+  <lemmas unique="987" /><!-- ,, të, e, ., në, jam, i, ai, dhe, kam, një, më, me, unë, për -->
+  <forms unique="1225" /><!-- ,, e, të, ., i, në, më, dhe, një, me, për, ishte, nuk, se, që -->
+  <fusions unique="18" /><!-- t'i, ia, ta, ma, m'u, t'u, iu, t'ia, ç'bëhet, S'ke, mu, s'jam, s'mora, s'më, t'ua -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">178</tag><!-- bardhë, bukur, parë, fundit, huaj, sigurt, djathtë, errët, keq, mirë -->
+    <tag name="ADP">250</tag><!-- në, me, për, nga, pa, pas, gjatë, midis, nëpër, si -->
+    <tag name="ADV">179</tag><!-- edhe, ku, më, shumë, vetëm, aq, gjithmonë, këtu, sot, atëherë -->
+    <tag name="AUX">138</tag><!-- jam, kam, u, duhet -->
+    <tag name="CCONJ">119</tag><!-- dhe, e, por, as, apo, edhe, ose, po, a, domethë -->
+    <tag name="DET">300</tag><!-- e, të, një, i, së, nja, nje, pak, ë -->
+    <tag name="INTJ">2</tag><!-- Ja, a -->
+    <tag name="NOUN">625</tag><!-- njeri, ditë, shtëpi, gjeneral, kohë, gjendje, sytë, grua, shi, tokë -->
+    <tag name="NUM">18</tag><!-- dy, '99, dhjetë, disa, gjashtë, katër, njëzet, pesë, pesëdhjetë, shtatë -->
+    <tag name="PART">251</tag><!-- të, nuk, do, më, e, po, për, duke, mos, jo -->
+    <tag name="PRON">430</tag><!-- ai, e, unë, i, më, që, ky, kjo, ajo, im -->
+    <tag name="PROPN">39</tag><!-- Ernest, Shqipëri, Vedat, margë, Hadi, Bamit, Berti, Dizi, Dizin, Ernesti -->
+    <tag name="PUNCT">492</tag><!-- ,, ., !, -, ?, :, –, _, (, ) -->
+    <tag name="SCONJ">112</tag><!-- se, kur, si, nëse, që, siç, pasi, pse, sikur, Pra -->
+    <tag name="VERB">430</tag><!-- kam, them, bëj, di, jam, vij, dëgjoj, mbaj, ndodhem, gjej -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="41">
+    <feat name="AdvType" value="Cau" upos="ADV">1</feat><!-- Ndryshe -->
+    <feat name="AdvType" value="Deg" upos="ADV">23</feat><!-- shumë, aq, sa, shpesh, aspak, pak, paku, përsëri, sado, tepër -->
+    <feat name="AdvType" value="Loc" upos="ADV">15</feat><!-- ku, brenda, jashtë, Ja, aty, diku, këtu, natën, para, poshtë -->
+    <feat name="AdvType" value="Man" upos="ADV">20</feat><!-- Pavarësisht, absolutisht, aktualisht, instinktivisht, jashtëzakonisht, kështu, këtu, mirë, parasysh, pas -->
+    <feat name="AdvType" value="Tim" upos="ADV">45</feat><!-- gjithmonë, sot, ndoshta, pastaj, atëherë, ende, Bashkë, Kurrë, Kështu, Para -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">4</feat><!-- ishte, kushtonte, mbanin, uli -->
+    <feat name="Case" value="Abl" upos="ADJ,DET,NOUN,PRON">61</feat><!-- të, tyre, ditës, kohësh, kësaj, meje, asaj, atyre, dëshire, filtrash -->
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">559</feat><!-- e, të, i, më, atë, këtë, sytë, ditë, fillim, mua -->
+    <feat name="Case" value="Dat" upos="DET,NOUN,PRON,PROPN">58</feat><!-- i, më, na, Ernestit, atij, njerëzve, gjitha, joshjeve, mua, njeriu -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">120</feat><!-- të, së, borës, gjendjes, sime, vetëdijes, bardhë, merimangës, njerkës, shoqërisë -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">487</feat><!-- e, i, unë, ai, kjo, ky, ajo, të, gjenerali, bukur -->
+    <feat name="Definite" value="Def" upos="NOUN,PRON,PROPN">383</feat><!-- gjenerali, sytë, Nëna, gjendjes, prifti, shtëpia, Ernesti, Ernestit, babai, dorën -->
+    <feat name="Definite" value="Ind" upos="DET,NOUN,PRON,PROPN">295</feat><!-- një, ditë, shi, fillim, Shqipëri, arsye, fund, gjë, grua, herë -->
+    <feat name="Degree" value="Pos" upos="ADJ">152</feat><!-- bardhë, bukur, fundit, parë, huaj, sigurt, djathtë, re, errët, gabuar -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">692</feat><!-- e, të, së, i, kjo, ajo, bardhë, ditë, sytë, Nëna -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">563</feat><!-- i, e, të, ai, ky, tij, atë, gjenerali, cilët, im -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">417</feat><!-- ishte, është, ka, kishte, di, tha, jam, kam, ndodhesha, bëri -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">28</feat><!-- gjejmë, jetë, ketë, jesh, bezdisë, dëgjojmë, hajë, hynte, kesh, krijojë -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">321</feat><!-- të, e, i, cilët, na, sytë, ata, kishin, gjejmë, ishin -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1486</feat><!-- e, i, të, më, ishte, është, unë, ka, kishte, së -->
+    <feat name="NumType" value="Card" upos="NUM">12</feat><!-- dy, gjashtë, katër, pesëdhjetë, shtatë, tetë, tre -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">193</feat><!-- më, unë, im, na, jam, kam, mua, ime, ndodhesha, tim -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">10</feat><!-- ti, beso, e, je, ndihesh, shmangesh, ty, të, tënd -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">476</feat><!-- e, i, ishte, është, ka, kishte, ai, tij, ajo, di -->
+    <feat name="Polarity" value="Neg" upos="PART">4</feat><!-- nuk -->
+    <feat name="Poss" value="Yes" upos="PRON">39</feat><!-- tij, im, saj, ime, tim, sime, time, timeti, tyre, mia -->
+    <feat name="PronType" value="Art" upos="DET">157</feat><!-- e, të, i, së -->
+    <feat name="PronType" value="Dem" upos="PRON">45</feat><!-- kjo, ky, atë, këtë, kësaj, këto, ata, ato, Këta, ai -->
+    <feat name="PronType" value="Emp" upos="PRON">1</feat><!-- vetë -->
+    <feat name="PronType" value="Ind" upos="PRON">50</feat><!-- asgjë, diçka, ndonjë, tjetër, çdo, asnjë, askush, gjithë, tjerë, tjetrit -->
+    <feat name="PronType" value="Int" upos="PRON">15</feat><!-- ç', Kush, Kënd, çfarë, kujt, sa, Çka -->
+    <feat name="PronType" value="Prs" upos="PRON">251</feat><!-- e, i, më, unë, ai, tij, ajo, im, na, mua -->
+    <feat name="PronType" value="Rel" upos="PRON">27</feat><!-- që, cilët, cili, cilën, cilës, ç' -->
+    <feat name="PronType" value="Tot" upos="PRON">2</feat><!-- gjitha, kaq -->
+    <feat name="Reflex" value="Yes" upos="PRON">4</feat><!-- veten, vetes, vetë -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">235</feat><!-- ishte, kishte, tha, ndodhesha, bëri, kishin, shfaq, dinte, ishin, kam -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">209</feat><!-- është, ka, di, jam, bëhet, bën, dua, gjejmë, janë, jetë -->
+    <feat name="VerbForm" value="Part" upos="ADJ,VERB">71</feat><!-- bërë, filluar, thënë, mbyllur, ngjarë, hequr, marrë, përpjekur, vajtur, caktuar -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">372</feat><!-- ishte, është, ka, kishte, di, tha, jam, bëri, kam, kishin -->
+    <feat name="Voice" value="Mid" upos="VERB">54</feat><!-- ndodhesha, bëhet, dukej, kujtua, çuditet, Duket, afrohet, bahet, bë, bëhej -->
+    <feat name="Voice" value="Pass" upos="VERB">5</feat><!-- damkosen, konsiderohen, mbahen, përfshihen, përjashtohen -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="37">
+    <dep name="acl">9</dep>
+    <dep name="acl:relcl">26</dep>
+    <dep name="advcl">80</dep>
+    <dep name="advmod">219</dep>
+    <dep name="amod">131</dep>
+    <dep name="appos">10</dep>
+    <dep name="aux">80</dep>
+    <dep name="case">270</dep>
+    <dep name="cc">114</dep>
+    <dep name="ccomp">57</dep>
+    <dep name="compound">5</dep>
+    <dep name="conj">135</dep>
+    <dep name="cop">58</dep>
+    <dep name="csubj">2</dep>
+    <dep name="det">223</dep>
+    <dep name="det:adj">121</dep>
+    <dep name="det:poss">41</dep>
+    <dep name="det:pron">9</dep>
+    <dep name="discourse">4</dep>
+    <dep name="fixed">21</dep>
+    <dep name="flat">1</dep>
+    <dep name="iobj">89</dep>
+    <dep name="mark">277</dep>
+    <dep name="nmod">64</dep>
+    <dep name="nmod:poss">69</dep>
+    <dep name="nsubj">209</dep>
+    <dep name="nsubj:outer">3</dep>
+    <dep name="nsubj:pass">1</dep>
+    <dep name="nummod">14</dep>
+    <dep name="obj">230</dep>
+    <dep name="obl">211</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="obl:tmod">11</dep>
+    <dep name="parataxis">36</dep>
+    <dep name="punct">492</dep>
+    <dep name="root">200</dep>
+    <dep name="xcomp">40</dep>
+  </deps>
+</treebank>
