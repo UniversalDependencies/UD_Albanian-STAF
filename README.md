@@ -13,7 +13,7 @@ Many thanks to Nelda Kote and her group for providing me with their unpublished 
 ## References
 
 * Luigi Talamo. Introducing STAF: the Saarbruecken Treebank of Albanian Fiction. Submitted.
-* Nelda Kote, Rozana Rushiti, Anila Cepani, Alba Haveriku, Evis Trandafili, Elinda Kajo Mece, Elsa Skenderi Rakipllari, Lindita Xhanari, Albana Deda: Universal Dependencies Treebank for Standard Albanian: A new approach, Proceedings of the Sixth International Conference Computational Linguistics in Bulgaria, 9 – 10 September 2024, Sofia, Bulgaria, ISSN: 2367 5675.
+* Nelda Kote, Rozana Rushiti, Anila Çepani, Alba Haveriku, Evis Trandafili, Elinda Kajo Mece, Elsa Skenderi Rakipllari, Lindita Xhanari, Albana Deda: Universal Dependencies Treebank for Standard Albanian: A new approach, Proceedings of the Sixth International Conference Computational Linguistics in Bulgaria, 9 – 10 September 2024, Sofia, Bulgaria, ISSN: 2367 5675.
 
 
 # Changelog
@@ -33,7 +33,7 @@ UPOS: manual native
 XPOS: not available
 Features: automatic with corrections
 Relations: manual native
-Contributors: Talamo, Luigi; Luftiu, Edita; Kote, Nelda; Rushiti, Rozana; Cepani, Anila
+Contributors: Talamo, Luigi; Luftiu, Edita; Kote, Nelda; Rushiti, Rozana; Çepani, Anila
 Contributing: here
 Contact: luigi.talamo@uni-saarland.de
 ===============================================================================
