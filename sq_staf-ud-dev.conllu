@@ -2,7 +2,7 @@
 # sent_id = STAF__150
 # source = Enkelejd Lamaj - Libër i bardhë
 1	Vizatimet	vizatim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	_
-2	vazhdonin	vazhdoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act|VerbForm=Fin	0	root	_	_
+2	vazhdonin	vazhdoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	njëri	njeri	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	_
 4	pas	pas	ADP	_	_	5	case	_	_
 5	tjetrit	tjetri	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Ind	3	nmod	_	_
