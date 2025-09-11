@@ -32,7 +32,7 @@
     <tag name="VERB">430</tag><!-- kam, them, bëj, di, jam, vij, dëgjoj, mbaj, ndodhem, gjej -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="41">
+  <feats unique="42">
     <feat name="AdvType" value="Cau" upos="ADV">1</feat><!-- Ndryshe -->
     <feat name="AdvType" value="Deg" upos="ADV">23</feat><!-- shumë, aq, sa, shpesh, aspak, pak, paku, përsëri, sado, tepër -->
     <feat name="AdvType" value="Loc" upos="ADV">15</feat><!-- ku, brenda, jashtë, Ja, aty, diku, këtu, natën, para, poshtë -->
@@ -59,7 +59,7 @@
     <feat name="Person" value="3" upos="AUX,PRON,VERB">476</feat><!-- e, i, ishte, është, ka, kishte, ai, tij, ajo, di -->
     <feat name="Polarity" value="Neg" upos="PART">4</feat><!-- nuk -->
     <feat name="Poss" value="Yes" upos="PRON">39</feat><!-- tij, im, saj, ime, tim, sime, time, timeti, tyre, mia -->
-    <feat name="PronType" value="Art" upos="DET">157</feat><!-- e, të, i, së -->
+    <feat name="PronType" value="Art" upos="DET">158</feat><!-- e, të, i, së -->
     <feat name="PronType" value="Dem" upos="PRON">45</feat><!-- kjo, ky, atë, këtë, kësaj, këto, ata, ato, Këta, ai -->
     <feat name="PronType" value="Emp" upos="PRON">1</feat><!-- vetë -->
     <feat name="PronType" value="Ind" upos="PRON">50</feat><!-- asgjë, diçka, ndonjë, tjetër, çdo, asnjë, askush, gjithë, tjerë, tjetrit -->
@@ -70,6 +70,7 @@
     <feat name="Reflex" value="Yes" upos="PRON">4</feat><!-- veten, vetes, vetë -->
     <feat name="Tense" value="Past" upos="AUX,VERB">235</feat><!-- ishte, kishte, tha, ndodhesha, bëri, kishin, shfaq, dinte, ishin, kam -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">209</feat><!-- është, ka, di, jam, bëhet, bën, dua, gjejmë, janë, jetë -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">445</feat><!-- ishte, është, ka, kishte, di, tha, jam, kam, ndodhesha, bëri -->
     <feat name="VerbForm" value="Part" upos="ADJ,VERB">71</feat><!-- bërë, filluar, thënë, mbyllur, ngjarë, hequr, marrë, përpjekur, vajtur, caktuar -->
     <feat name="Voice" value="Act" upos="AUX,VERB">372</feat><!-- ishte, është, ka, kishte, di, tha, jam, bëri, kam, kishin -->
     <feat name="Voice" value="Mid" upos="VERB">54</feat><!-- ndodhesha, bëhet, dukej, kujtua, çuditet, Duket, afrohet, bahet, bë, bëhej -->
