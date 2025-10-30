@@ -231,7 +231,7 @@
 # sent_id = STAF__193
 # source = Rexhep Qosja - Një dashuri dhe shtatë faje
 1	Mysafiri	mysafir	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	end_char=1602|start_char=1594
-2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	end_char=1604|start_char=1603
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	end_char=1604|start_char=1603
 3	vazhdon	vazhdoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	end_char=1612|start_char=1605
 4	përgjigjen	përgjigje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
 5	:	:	PUNCT	_	_	3	punct	_	end_char=1624|start_char=1623
