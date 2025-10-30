@@ -47,7 +47,7 @@
 # sent_id = STAF__85
 # source = Ismali Kadare - Gjenerali ï Ushtrisë së Vdekur.
 1	Gjenerali	Gjeneral	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	end_char=692|start_char=683
-2	e	aj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	end_char=694|start_char=693
+2	e	aj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	end_char=694|start_char=693
 3	dinte	di	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	end_char=700|start_char=695
 4	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	end_char=706|start_char=705
@@ -105,7 +105,7 @@
 1	Unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	end_char=249|start_char=246
 2-3	ia	_	_	_	_	_	_	_	_
 2	i	ai	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
-3	e	ai	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	e	ai	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 4	luajta	luaj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	end_char=259|start_char=253
 5	syrin	syri	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	end_char=265|start_char=260
 6	dhe	dhe	CCONJ	_	_	7	cc	_	end_char=269|start_char=266
@@ -136,7 +136,7 @@
 10	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	end_char=342|start_char=338
 11	shumëfishohet	shumëfishoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	end_char=356|start_char=343
 12	kur	kur	SCONJ	_	_	14	mark	_	end_char=360|start_char=357
-13	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	end_char=362|start_char=361
+13	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl	_	end_char=362|start_char=361
 14	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	end_char=366|start_char=363
 15	pyetjen	pyetje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	end_char=374|start_char=367
 16	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	det	_	end_char=381|SpaceAfter=No|start_char=375
@@ -189,7 +189,7 @@
 5	që	që	PRON	_	PronType=Rel	9	nsubj	_	end_char=724|start_char=722
 6-7	ia	_	_	_	_	_	_	_	end_char=727|start_char=725
 6	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	iobj	_	_
-7	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+7	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
 8	keni	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	end_char=732|start_char=728
 9	vënë	vëj	VERB	_	VerbForm=Part	4	acl:relcl	_	end_char=737|start_char=733
 10	bonum	bonum	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	end_char=743|start_char=738
@@ -245,7 +245,7 @@
 1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	end_char=2|start_char=0
 2-3	ma	_	_	_	_	_	_	_	_
 2	më	unë	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
-3	e	ai	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+3	e	ai	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 4	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	end_char=12|start_char=6
 5	marrë	marr	VERB	_	VerbForm=Part	0	root	_	end_char=18|start_char=13
 6	nga	nga	ADP	_	_	7	case	_	end_char=22|start_char=19
@@ -390,7 +390,7 @@
 6	që	që	SCONJ	_	_	11	mark	_	end_char=1223|start_char=1221
 7	meritën	meritë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	end_char=1231|start_char=1224
 8	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	iobj	_	end_char=1234|start_char=1232
-9	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	end_char=1236|start_char=1235
+9	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	expl	_	end_char=1236|start_char=1235
 10	paskëshin	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	end_char=1246|start_char=1237
 11	pas	kam	VERB	_	VerbForm=Part	4	ccomp	_	end_char=1250|start_char=1247
 12	ato	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	13	det	_	end_char=1254|start_char=1251

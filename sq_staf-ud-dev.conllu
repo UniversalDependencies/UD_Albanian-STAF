@@ -145,7 +145,7 @@
 # source = Ridvan Dibra - Gjumi mbi borë
 1	Mjafton	mjafton	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	end_char=531|start_char=524
 2	me	me	PART	_	_	4	mark	_	end_char=534|start_char=532
-3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	4	obj	_	end_char=536|start_char=535
+3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	4	expl	_	end_char=536|start_char=535
 4	mbyllë	mbyll	VERB	_	VerbForm=Part	1	advcl	_	end_char=543|start_char=537
 5	veshët	vesh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	obj	_	end_char=550|start_char=544
 6	me	me	ADP	_	_	7	case	_	end_char=553|start_char=551
