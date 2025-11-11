@@ -1,7 +1,79 @@
-Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
-Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
-Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
-Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
-from which this script is invoked and which also holds the validator.
-$0 == tools/evaluate_treebank.pl
-The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Albanian-STAF:
+commit 1e6afd08c97eb5588b39448f9dd8c0e519cddc7a
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 18:38:32 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'sq_staf'
+Language code (from CoNLL-U file name) = 'sq'
+Found the following data files: sq_staf-ud-dev.conllu, sq_staf-ud-test.conllu, sq_staf-ud-train.conllu
+Size: counted 3563 of 3563 words (nodes).
+Size: min(0, log((N/1000)**2)) = 2.5412057732474.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.5.
+Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 2117 out of 3563 total words have one or more features.
+Features: source of annotation (from README) factor is 0.5.
+Universal relations: 29 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang sq --max-err=10 UD_Albanian-STAF/sq_staf-ud-dev.conllu
+[Line 57 Sent STAF__82]: [L3 Warning pron-det-without-prontype] The word 'një' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 64 Sent STAF__82]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 66 Sent STAF__82]: [L3 Warning pron-det-without-prontype] The word 'të' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 118 Sent STAF__175]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 123 Sent STAF__175]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 182 Sent STAF__112]: [L3 Warning pron-det-without-prontype] The word 'të' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 211 Sent STAF__112]: [L3 Warning pron-det-without-prontype] The word 'të' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 226 Sent STAF__84]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 256 Sent STAF__155]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 258 Sent STAF__155]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 17
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang sq --max-err=10 UD_Albanian-STAF/sq_staf-ud-test.conllu
+[Line 9 Sent STAF__55]: [L3 Warning pron-det-without-prontype] The word 'një' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 13 Sent STAF__55]: [L3 Warning pron-det-without-prontype] The word 'një' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 19 Sent STAF__55]: [L3 Warning pron-det-without-prontype] The word 'të' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 26 Sent STAF__55]: [L3 Warning pron-det-without-prontype] The word 'një' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 32 Sent STAF__55]: [L3 Warning fixed-without-extpos] Fixed expression 's' mora vesh' does not have the 'ExtPos' feature
+[Line 74 Sent STAF__99]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 88 Sent STAF__154]: [L3 Warning pron-det-without-prontype] The word 'një' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 169 Sent STAF__25]: [L3 Warning pron-det-without-prontype] The word 'i' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 174 Sent STAF__25]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 176 Sent STAF__25]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 19
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang sq --max-err=10 UD_Albanian-STAF/sq_staf-ud-train.conllu
+[Line 69 Sent STAF__41]: [L3 Warning pron-det-without-prontype] The word 'të' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 103 Sent STAF__130]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 112 Sent STAF__74]: [L3 Warning fixed-without-extpos] Fixed expression 'Mbaja mend' does not have the 'ExtPos' feature
+[Line 115 Sent STAF__74]: [L3 Warning pron-det-without-prontype] The word 'një' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 122 Sent STAF__74]: [L3 Warning pron-det-without-prontype] The word 'të' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 123 Sent STAF__74]: [L3 Warning pron-det-without-prontype] The word 'një' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 136 Sent STAF__74]: [L3 Warning pron-det-without-prontype] The word 'së' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 190 Sent STAF__124]: [L3 Warning pron-det-without-prontype] The word 'njena' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 208 Sent STAF__168]: [L3 Warning pron-det-without-prontype] The word 'tonë' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 230 Sent STAF__196]: [L3 Warning pron-det-without-prontype] The word 'një' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 166
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
+(weight=0.37037037037037) * (score{size}=0.183938607450339) = 0.068125410166792
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
+(weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
+(TOTAL score=0.371276404298178) * (availability=1) * (validity=1) = 0.371276404298178
+STARS = 2
+UD_Albanian-STAF	0.371276404298178	2
