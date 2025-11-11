@@ -2,15 +2,15 @@
 # sent_id = STAF__150
 # source = Enkelejd Lamaj - Libër i bardhë
 1	Vizatimet	vizatim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	_
-2	vazhdonin	vazhdoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+2	vazhdonin	vazhdoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	njëri	njeri	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	_
 4	pas	pas	ADP	_	_	5	case	_	_
 5	tjetrit	tjetri	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Ind	3	nmod	_	_
 6	dhe	dhe	CCONJ	_	_	10	cc	_	_
 7	dora	dorë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	_
-8	e	e	DET	_	Gender=Fem|Number=Sing	9	det	_	_
+8	e	e	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	autorit	autor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	_
-10	bëhej	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	conj	_	_
+10	bëhej	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
 11	akoma	akoma	ADV	_	AdvType=Tim	10	advmod	_	_
 12	edhe	edhe	ADV	_	_	13	advmod	_	_
 13	më	më	PART	_	_	15	advmod	_	_
@@ -25,11 +25,11 @@
 2-3	ma	_	_	_	_	_	_	_	_
 2	më	më	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	end_char=4966|start_char=4964
 3	e	e	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	end_char=4966|start_char=4964
-4	përforcuan	përforcoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	end_char=4977|start_char=4967
+4	përforcuan	përforcoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	end_char=4977|start_char=4967
 5	edhe	edhe	ADV	_	_	6	advmod	_	end_char=4982|start_char=4978
 6	fashat	fashë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	end_char=4989|start_char=4983
 7	e	e	DET	_	Gender=Fem|Number=Plur|PronType=Art	8	det	_	end_char=4991|start_char=4990
-8	mbështjella	mbështjelloj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	acl	_	end_char=5003|start_char=4992
+8	mbështjella	mbështjelloj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	end_char=5003|start_char=4992
 9	në	në	ADP	_	_	10	case	_	end_char=5006|start_char=5004
 10	kokë	kokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	end_char=5012|start_char=5011
@@ -38,7 +38,7 @@
 # sent_id = STAF__188
 # source = Rexhep Qosja - Një dashuri dhe shtatë faje
 1	Profeti	profet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	end_char=1484|start_char=1477
-2	përgjigjet	përgjigjem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	end_char=1495|start_char=1485
+2	përgjigjet	përgjigjem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	end_char=1495|start_char=1485
 3	pa	pa	SCONJ	_	_	4	mark	_	end_char=1498|start_char=1496
 4	shikuar	shikoj	VERB	_	VerbForm=Part	2	advcl	_	end_char=1506|start_char=1499
 5	kënd	kënd	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
@@ -49,7 +49,7 @@
 # source = Ismali Kadare - Gjenerali ï Ushtrisë së Vdekur.
 1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	end_char=350|start_char=348
 2	po	po	PART	_	_	3	mark	_	end_char=353|start_char=351
-3	vinte	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	end_char=359|start_char=354
+3	vinte	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	end_char=359|start_char=354
 4	në	në	ADP	_	_	5	case	_	end_char=362|start_char=360
 5	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	end_char=372|start_char=371
@@ -81,12 +81,12 @@
 1	Herë	Herë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	end_char=1350|start_char=1346
 2	pas	pas	ADP	_	_	3	case	_	end_char=1354|start_char=1351
 3	here	here	NOUN	_	_	1	nmod	_	end_char=1359|start_char=1355
-4	dukeshin	dukesh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	end_char=1368|start_char=1360
+4	dukeshin	dukesh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	end_char=1368|start_char=1360
 5	djem	djalë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	end_char=1373|start_char=1369
 6	e	e	CCONJ	_	_	7	cc	_	end_char=1375|start_char=1374
 7	vajza	vajzë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	end_char=1381|start_char=1376
 8	që	që	PRON	_	PronType=Rel	9	nsubj	_	end_char=1384|start_char=1382
-9	kalonin	kaloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	end_char=1392|start_char=1385
+9	kalonin	kaloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	end_char=1392|start_char=1385
 10	përmes	përmes	ADP	_	_	11	case	_	end_char=1399|start_char=1393
 11	sallonit	sallon	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	end_char=1408|start_char=1400
 12	në	në	ADP	_	_	13	case	_	end_char=1411|start_char=1409
@@ -99,12 +99,12 @@
 # sent_id = STAF__152
 # source = Enkelejd Lamaj - Libër i bardhë
 1	Më	më	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
-2	tërhoqi	tërheq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+2	tërhoqi	tërheq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	vëmendjen	vëmendje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	_
 4	njëra	njëri	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	nsubj	_	_
 5	ku	kur	SCONJ	_	_	7	mark	_	_
 6	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
-7	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	advcl	_	_
+7	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 8	para	para	ADP	_	_	9	case	_	_
 9	pasqyrës	pasqyrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	_
 10	në	në	ADP	_	_	11	case	_	_
@@ -117,7 +117,7 @@
 1	Mendja	mendje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	end_char=594|start_char=588
 2	e	e	DET	_	Gender=Fem|Number=Sing	3	det	_	end_char=596|start_char=595
 3	kujt	kujt	PRON	_	Case=Gen|Number=Sing|PronType=Int	1	nmod	_	end_char=601|start_char=597
-4	flet	fles	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	end_char=606|start_char=602
+4	flet	fles	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	end_char=606|start_char=602
 5	me	me	ADP	_	_	6	case	_	end_char=609|start_char=607
 6	gojën	gojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	end_char=615|start_char=610
 7	e	e	DET	_	Gender=Fem|Number=Sing	8	det	_	end_char=617|start_char=616
@@ -129,12 +129,12 @@
 # text = Kur nuk ke se ç'bën, merresh me thashetheme grash.
 1	Kur	kur	SCONJ	_	_	3	mark	_	end_char=476|start_char=473
 2	nuk	nuk	PART	_	_	3	advmod	_	end_char=480|start_char=477
-3	ke	kam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	8	advcl	_	end_char=483|start_char=481
+3	ke	kam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	end_char=483|start_char=481
 4	se	se	SCONJ	_	_	6	mark	_	end_char=486|start_char=484
 5	ç'	ç'	PRON	_	PronType=Int	6	obj	_	end_char=492|SpaceAfter=No|start_char=487
-6	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	end_char=492|SpaceAfter=No|start_char=487
+6	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	end_char=492|SpaceAfter=No|start_char=487
 7	,	,	PUNCT	_	_	3	punct	_	end_char=493|start_char=492
-8	merresh	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	0	root	_	end_char=501|start_char=494
+8	merresh	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	end_char=501|start_char=494
 9	me	me	ADP	_	_	10	case	_	end_char=504|start_char=502
 10	thashetheme	thashethem	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	end_char=516|start_char=505
 11	grash	grash	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	end_char=522|SpaceAfter=No|start_char=517
@@ -143,9 +143,9 @@
 # text = Mjafton me i mbyllë veshët me dyllë a pambuk.
 # sent_id = STAF__133
 # source = Ridvan Dibra - Gjumi mbi borë
-1	Mjafton	mjafton	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	end_char=531|start_char=524
+1	Mjafton	mjafton	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	end_char=531|start_char=524
 2	me	me	PART	_	_	4	mark	_	end_char=534|start_char=532
-3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	4	obj	_	end_char=536|start_char=535
+3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	4	expl	_	end_char=536|start_char=535
 4	mbyllë	mbyll	VERB	_	VerbForm=Part	1	advcl	_	end_char=543|start_char=537
 5	veshët	vesh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	obj	_	end_char=550|start_char=544
 6	me	me	ADP	_	_	7	case	_	end_char=553|start_char=551
@@ -158,7 +158,7 @@
 # sent_id = STAF__104
 # source = Ismali Kadare - Gjenerali ï Ushtrisë së Vdekur.
 1	Gjenerali	Gjeneral	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	end_char=1257|start_char=1248
-2	porositi	poros	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	end_char=1266|start_char=1258
+2	porositi	poros	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	end_char=1266|start_char=1258
 3	raki	raki	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	end_char=1272|start_char=1271
 
@@ -166,12 +166,12 @@
 # sent_id = STAF__112
 # source = Ismali Kadare - Gjenerali ï Ushtrisë së Vdekur.
 1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	end_char=1620|start_char=1617
-2	përsëritën	përsëritëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	end_char=1631|start_char=1621
+2	përsëritën	përsëritëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	end_char=1631|start_char=1621
 3	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det:adj	_	end_char=1634|start_char=1632
 4	njëjtat	njëjtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	end_char=1642|start_char=1635
 5	fjalë	fjalë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	end_char=1648|start_char=1643
 6	që	që	PRON	_	PronType=Rel	8	nsubj	_	end_char=1651|start_char=1649
-7	kishin	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	aux	_	end_char=1658|start_char=1652
+7	kishin	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	end_char=1658|start_char=1652
 8	thënë	them	VERB	_	VerbForm=Part	5	acl:relcl	_	end_char=1664|start_char=1659
 9	dhjetëra	dhjetë	NUM	_	_	10	nummod	_	end_char=1673|start_char=1665
 10	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	end_char=1678|start_char=1674
@@ -190,7 +190,7 @@
 23-24	ia	_	_	_	_	_	_	_	_
 23	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	25	iobj	_	end_char=1737|start_char=1733
 24	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	25	iobj	_	end_char=1737|start_char=1733
-25	dilnin	diln	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	18	acl	_	end_char=1744|start_char=1738
+25	dilnin	diln	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	acl	_	end_char=1744|start_char=1738
 26	mbanë	mbanë	ADP	_	_	28	case	_	end_char=1750|start_char=1745
 27	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	28	det	_	end_char=1756|start_char=1751
 28	pune	pune	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	obl	_	end_char=1761|start_char=1757
@@ -198,7 +198,7 @@
 30	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	end_char=1774|start_char=1769
 31	,	,	PUNCT	_	_	30	punct	_	end_char=1775|start_char=1774
 32	siç	siç	SCONJ	_	_	34	mark	_	end_char=1779|start_char=1776
-33	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	34	aux	_	end_char=1785|start_char=1780
+33	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	34	aux	_	end_char=1785|start_char=1780
 34	parashikuar	parashikoj	VERB	_	VerbForm=Part	30	acl	_	end_char=1797|start_char=1786
 35	,	,	PUNCT	_	_	34	punct	_	end_char=1798|start_char=1797
 36	vështirësitë	vështirësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	18	conj	_	end_char=1811|start_char=1799
@@ -217,11 +217,11 @@
 # source = Ismali Kadare - Gjenerali ï Ushtrisë së Vdekur.
 1	Pra	Pra	SCONJ	_	_	4	mark	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	end_char=645|start_char=640
+3	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	end_char=645|start_char=640
 4	vjeshtë	vjeshtë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	end_char=653|start_char=646
 5	dhe	dhe	CCONJ	_	_	7	cc	_	end_char=657|start_char=654
 6	shiu	shi	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	end_char=662|start_char=658
-7	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	end_char=669|start_char=663
+7	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	end_char=669|start_char=663
 8	kohën	kohë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	end_char=675|start_char=670
 9	e	e	DET	_	Gender=Fem|Number=Sing	10	det	_	end_char=677|start_char=676
 10	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	SpaceAfter=No
@@ -231,8 +231,8 @@
 # sent_id = STAF__193
 # source = Rexhep Qosja - Një dashuri dhe shtatë faje
 1	Mysafiri	mysafir	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	end_char=1602|start_char=1594
-2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	end_char=1604|start_char=1603
-3	vazhdon	vazhdoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	end_char=1612|start_char=1605
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	end_char=1604|start_char=1603
+3	vazhdon	vazhdoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	end_char=1612|start_char=1605
 4	përgjigjen	përgjigje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
 5	:	:	PUNCT	_	_	3	punct	_	end_char=1624|start_char=1623
 
@@ -240,14 +240,14 @@
 # sent_id = STAF__192
 # source = Rexhep Qosja - Një dashuri dhe shtatë faje
 1	Kush	kush	PRON	_	PronType=Int	3	nsubj	_	end_char=1586|start_char=1582
-2	je	jam	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	3	cop	_	end_char=1589|start_char=1587
+2	je	jam	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	end_char=1589|start_char=1587
 3	ti	ti	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	3	punct	_	end_char=1593|start_char=1592
 
 # text = Ishte pa dyshim dhe skica më e bukur e koleksionit.
 # sent_id = STAF__155
 # source = Enkelejd Lamaj - Libër i bardhë
-1	Ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	_
+1	Ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
 2	pa	pa	ADP	_	_	3	case	_	_
 3	dyshim	dyshim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	_
 4	dhe	dhe	ADV	_	_	5	advmod	_	_
@@ -265,7 +265,7 @@
 1	Pavarësisht	pavarësisht	ADV	_	AdvType=Man	2	case	_	end_char=2344|start_char=2333
 2	lajthitjes	lajthitje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	end_char=2355|SpaceAfter=No|start_char=2345
 3	,	,	PUNCT	_	_	2	punct	_	end_char=2356|start_char=2355
-4	pohoj	pohoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	end_char=2362|start_char=2357
+4	pohoj	pohoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	end_char=2362|start_char=2357
 5	pa	pa	ADP	_	_	6	case	_	end_char=2365|start_char=2363
 6	mëdyshje	mëdyshje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	end_char=2374|start_char=2366
 7	se	se	SCONJ	_	_	15	mark	_	end_char=2377|start_char=2375
@@ -275,7 +275,7 @@
 11	ime	ime	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	end_char=2400|start_char=2397
 12	njëherazi	njëherazi	ADV	_	AdvType=Tim	15	advmod	_	end_char=2410|start_char=2401
 13	aktualisht	aktualisht	ADV	_	AdvType=Man	15	advmod	_	end_char=2421|start_char=2411
-14	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	end_char=2427|start_char=2422
+14	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	end_char=2427|start_char=2422
 15	shtëpia	shtëpi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	ccomp	_	end_char=2435|start_char=2428
 16	e	e	DET	_	Gender=Fem|Number=Sing	17	det	_	end_char=2437|start_char=2436
 17	timeti	timeti	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	end_char=2441|SpaceAfter=No|start_char=2438
@@ -287,7 +287,7 @@
 1	Njerëzve	njerëz	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	4	iobj	_	end_char=8|start_char=0
 2	nuk	nuk	PART	_	_	4	advmod	_	end_char=12|start_char=9
 3	u	u	AUX	_	_	4	aux	_	end_char=14|start_char=13
-4	intereson	interesoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	end_char=24|start_char=15
+4	intereson	interesoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	end_char=24|start_char=15
 5	më	më	PART	_	_	4	advmod	_	end_char=27|start_char=25
 6	asgjë	asgjë	PRON	_	PronType=Ind	4	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	end_char=34|start_char=33
@@ -301,7 +301,7 @@
 4	Berti	Berti	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	pasi	pasi	SCONJ	_	_	7	mark	_	_
-7	gjerbi	gjerb	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	advcl	_	_
+7	gjerbi	gjerb	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	advcl	_	_
 8	edhe	edhe	ADV	_	_	9	advmod	_	_
 9	gllënjkën	gllënjkë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	_
 10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:adj	_	_
@@ -309,20 +309,20 @@
 12	të	të	DET	_	Gender=Fem|Number=Sing	13	det	_	_
 13	verës	verë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod:poss	_	_
 14	dhe	dhe	CCONJ	_	_	15	cc	_	_
-15	uli	ul	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	_
+15	uli	ul	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
 16	gotën	gotë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	_
 17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det:adj	_	_
 18	qelqtë	qelqtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 19	mbi	mbi	ADP	_	_	20	case	_	_
 20	tryezë	tryezë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	7	punct	_	_
-22	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+22	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 23	se	se	SCONJ	_	_	30	mark	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	tekefundit	tekefundit	ADV	_	_	30	advmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	nuk	nuk	PART	_	_	30	advmod	_	_
-28	ishte	jam	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	30	cop	_	_
+28	ishte	jam	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	cop	_	_
 29	një	një	DET	_	_	30	det	_	_
 30	ide	ide	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	ccomp	_	_
 31	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	32	det:adj	_	_
@@ -332,12 +332,12 @@
 35	nuk	nuk	PART	_	_	38	advmod	_	_
 36	do	do	PART	_	_	38	mark	_	_
 37	u	u	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	38	iobj	_	_
-38	kushtonte	kushtoj	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	30	conj	_	_
+38	kushtonte	kushtoj	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	_	_
 39	asgjë	asgjë	PRON	_	PronType=Ind	38	obj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	38	punct	_	_
 41	nëse	nëse	SCONJ	_	_	43	mark	_	_
 42	e	e	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
-43	mbanin	mbaj	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	38	advcl	_	_
+43	mbanin	mbaj	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	advcl	_	_
 44	parasysh	parasysh	ADV	_	_	43	advmod	_	_
 45	si	si	ADP	_	_	47	case	_	_
 46	një	një	DET	_	_	47	det	_	_
@@ -352,7 +352,7 @@
 3-4	s'më	_	_	_	_	_	_	_	_
 3	s'	s'	PART	_	_	6	advmod	_	end_char=1526|start_char=1522
 4	më	më	PRON	_	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	6	iobj	_	end_char=1526|start_char=1522
-5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	end_char=1529|start_char=1527
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	end_char=1529|start_char=1527
 6	thënë	them	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No
 7	!	!	PUNCT	_	_	6	punct	_	end_char=1536|start_char=1535
 
@@ -362,13 +362,13 @@
 1	Kur	kur	SCONJ	_	_	4	mark	_	end_char=153|start_char=150
 2	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	end_char=157|start_char=154
 3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	end_char=159|start_char=158
-4	dhashë	dhas	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	10	advcl	_	end_char=166|start_char=160
+4	dhashë	dhas	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	end_char=166|start_char=160
 5	zë	zë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	end_char=169|start_char=167
 6	asaj	ajo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	end_char=174|start_char=170
 7	dëshire	dëshir	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	4	iobj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	end_char=183|start_char=182
 9	mami	mami	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	end_char=188|start_char=184
-10	vuri	vë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	end_char=193|start_char=189
+10	vuri	vë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	end_char=193|start_char=189
 11	buzën	buzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	end_char=199|start_char=194
 12	në	në	ADP	_	_	13	case	_	end_char=202|start_char=200
 13	gaz	gaz	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	end_char=206|start_char=203
@@ -381,13 +381,13 @@
 20	majtë	majtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	17	punct	_	end_char=242|start_char=241
 22	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	iobj	_	end_char=245|start_char=243
-23	kujtoi	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	end_char=252|start_char=246
+23	kujtoi	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	end_char=252|start_char=246
 24	se	se	SCONJ	_	_	32	mark	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	end_char=256|start_char=255
 26	tashmë	tashmë	ADV	_	AdvType=Tim	32	advmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	end_char=264|start_char=263
 28	nuk	nuk	PART	_	_	32	advmod	_	end_char=268|start_char=265
-29	isha	jam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	32	cop	_	end_char=273|start_char=269
+29	isha	jam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	32	cop	_	end_char=273|start_char=269
 30	më	më	PART	_	_	32	advmod	_	end_char=276|start_char=274
 31	një	një	DET	_	Definite=Ind	32	det	_	end_char=280|start_char=277
 32	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	ccomp	_	SpaceAfter=No

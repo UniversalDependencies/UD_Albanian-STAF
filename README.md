@@ -27,6 +27,7 @@ Many thanks to Nelda Kote and her group for providing me with their unpublished 
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction
 Lemmas: automatic with corrections
 UPOS: manual native
