@@ -20,12 +20,12 @@
     <tag name="ADV">179</tag><!-- edhe, ku, më, shumë, vetëm, aq, gjithmonë, këtu, sot, atëherë -->
     <tag name="AUX">138</tag><!-- jam, kam, u, duhet -->
     <tag name="CCONJ">119</tag><!-- dhe, e, por, as, apo, edhe, ose, po, a, domethë -->
-    <tag name="DET">300</tag><!-- e, të, një, i, së, nja, nje, pak, ë -->
+    <tag name="DET">299</tag><!-- e, të, një, i, së, nja, nje, pak, ë -->
     <tag name="INTJ">2</tag><!-- Ja, a -->
     <tag name="NOUN">625</tag><!-- njeri, ditë, shtëpi, gjeneral, kohë, gjendje, sytë, grua, shi, tokë -->
     <tag name="NUM">18</tag><!-- dy, '99, dhjetë, disa, gjashtë, katër, njëzet, pesë, pesëdhjetë, shtatë -->
     <tag name="PART">251</tag><!-- të, nuk, do, më, e, po, për, duke, mos, jo -->
-    <tag name="PRON">430</tag><!-- ai, e, unë, i, më, që, ky, kjo, ajo, im -->
+    <tag name="PRON">431</tag><!-- ai, e, unë, i, më, që, ky, kjo, ajo, im -->
     <tag name="PROPN">39</tag><!-- Ernest, Shqipëri, Vedat, margë, Hadi, Bamit, Berti, Dizi, Dizin, Ernesti -->
     <tag name="PUNCT">492</tag><!-- ,, ., !, -, ?, :, –, _, (, ) -->
     <tag name="SCONJ">112</tag><!-- se, kur, si, nëse, që, siç, pasi, pse, sikur, Pra -->
@@ -42,8 +42,8 @@
     <feat name="Case" value="Abl" upos="ADJ,DET,NOUN,PRON">61</feat><!-- të, tyre, ditës, kohësh, kësaj, meje, asaj, atyre, dëshire, filtrash -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">559</feat><!-- e, të, i, më, atë, këtë, sytë, ditë, fillim, mua -->
     <feat name="Case" value="Dat" upos="DET,NOUN,PRON,PROPN">58</feat><!-- i, më, na, Ernestit, atij, njerëzve, gjitha, joshjeve, mua, njeriu -->
-    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">120</feat><!-- të, së, borës, gjendjes, sime, vetëdijes, bardhë, merimangës, njerkës, shoqërisë -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">487</feat><!-- e, i, unë, ai, kjo, ky, ajo, të, gjenerali, bukur -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">121</feat><!-- të, së, borës, gjendjes, sime, vetëdijes, bardhë, merimangës, njerkës, shoqërisë -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">486</feat><!-- e, i, unë, ai, kjo, ky, ajo, të, gjenerali, bukur -->
     <feat name="Definite" value="Def" upos="NOUN,PRON,PROPN">383</feat><!-- gjenerali, sytë, Nëna, gjendjes, prifti, shtëpia, Ernesti, Ernestit, babai, dorën -->
     <feat name="Definite" value="Ind" upos="DET,NOUN,PRON,PROPN">295</feat><!-- një, ditë, shi, fillim, Shqipëri, arsye, fund, gjë, grua, herë -->
     <feat name="Degree" value="Pos" upos="ADJ">152</feat><!-- bardhë, bukur, fundit, parë, huaj, sigurt, djathtë, re, errët, gabuar -->
@@ -59,7 +59,7 @@
     <feat name="Person" value="3" upos="AUX,PRON,VERB">476</feat><!-- e, i, ishte, është, ka, kishte, ai, tij, ajo, di -->
     <feat name="Polarity" value="Neg" upos="PART">4</feat><!-- nuk -->
     <feat name="Poss" value="Yes" upos="PRON">39</feat><!-- tij, im, saj, ime, tim, sime, time, timeti, tyre, mia -->
-    <feat name="PronType" value="Art" upos="DET">158</feat><!-- e, të, i, së -->
+    <feat name="PronType" value="Art" upos="DET">157</feat><!-- e, të, i, së -->
     <feat name="PronType" value="Dem" upos="PRON">45</feat><!-- kjo, ky, atë, këtë, kësaj, këto, ata, ato, Këta, ai -->
     <feat name="PronType" value="Emp" upos="PRON">1</feat><!-- vetë -->
     <feat name="PronType" value="Ind" upos="PRON">50</feat><!-- asgjë, diçka, ndonjë, tjetër, çdo, asnjë, askush, gjithë, tjerë, tjetrit -->
@@ -77,7 +77,7 @@
     <feat name="Voice" value="Pass" upos="VERB">5</feat><!-- damkosen, konsiderohen, mbahen, përfshihen, përjashtohen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="38">
     <dep name="acl">9</dep>
     <dep name="acl:relcl">26</dep>
     <dep name="advcl">80</dep>
@@ -88,8 +88,8 @@
     <dep name="case">270</dep>
     <dep name="cc">114</dep>
     <dep name="ccomp">57</dep>
-    <dep name="compound">5</dep>
-    <dep name="conj">135</dep>
+    <dep name="compound">6</dep>
+    <dep name="conj">136</dep>
     <dep name="cop">58</dep>
     <dep name="csubj">2</dep>
     <dep name="det">223</dep>
@@ -97,18 +97,19 @@
     <dep name="det:poss">41</dep>
     <dep name="det:pron">9</dep>
     <dep name="discourse">4</dep>
+    <dep name="expl">39</dep>
     <dep name="fixed">21</dep>
     <dep name="flat">1</dep>
     <dep name="iobj">89</dep>
     <dep name="mark">277</dep>
-    <dep name="nmod">64</dep>
-    <dep name="nmod:poss">69</dep>
+    <dep name="nmod">65</dep>
+    <dep name="nmod:poss">70</dep>
     <dep name="nsubj">209</dep>
     <dep name="nsubj:outer">3</dep>
     <dep name="nsubj:pass">1</dep>
     <dep name="nummod">14</dep>
-    <dep name="obj">230</dep>
-    <dep name="obl">211</dep>
+    <dep name="obj">188</dep>
+    <dep name="obl">210</dep>
     <dep name="obl:agent">1</dep>
     <dep name="obl:tmod">11</dep>
     <dep name="parataxis">36</dep>
